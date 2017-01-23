@@ -1,13 +1,13 @@
-#instagram {
+.instagram-thumbnails {
   list-style:none  
 }
-#instagram li{
+.instagram-thumbnails li{
   float:left;
   width:200px;
   height:200px;
   margin:10px
 }
-#instagram li img{
+.instagram-thumbnails li img{
   max-width:100%;
   max-height:100%;
 }
