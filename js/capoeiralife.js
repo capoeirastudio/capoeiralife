@@ -9,7 +9,7 @@ $.ajax({
 	success: function(data){
  		console.log(data);
 		for( x in data.data ){
-			$('#instagram').append('<img src="'+data.data[x].images.low_resolution.url+'">');
+			$('ul').append('<li><img src="'+data.data[x].images.low_resolution.url+'"></li>');
 		}
 	},
 	error: function(data){
