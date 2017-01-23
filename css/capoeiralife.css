@@ -1,0 +1,13 @@
+#instagram{
+  list-style:none  
+}
+#instagram li{
+  float:left;
+  width:200px;
+  height:200px;
+  margin:10px
+}
+#instagram li img{
+  max-width:100%;
+  max-height:100%;
+}
